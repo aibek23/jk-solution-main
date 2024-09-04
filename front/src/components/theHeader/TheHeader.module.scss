@@ -1,0 +1,115 @@
+@import "../../app/styles/mixin";
+
+.wrapperHeader {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 112px;
+  font-size: 24px;
+  line-height: 36px;
+
+  @include laptop {
+    flex-wrap: wrap;
+  }
+
+  @include tablet {
+    flex-wrap: wrap;
+  }
+
+  @include mobil {
+    flex-wrap: wrap;
+  }
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  column-gap: 56px;
+  align-items: center;
+
+  @include laptop {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+
+.navText {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 44px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.linck {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.textProfile {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #111;
+}
+
+.logo {
+  width: max-content;
+  height: 41px;
+}
+
+.textLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  width: 92px;
+  height: 42px;
+  border-radius: 4px;
+  background: #001834;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0.015em;
+  text-align: center;
+  color: #fff;
+}
+
+.corzina {
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 100%;
+  background: #001834;
+  position: relative;
+  z-index: 5;
+}
+
+.num {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  background: #0095e5;
+  border-radius: 100%;
+  position: absolute;
+  color: #fff;
+  top: -8px;
+  right: -12px;
+  z-index: -1;
+}

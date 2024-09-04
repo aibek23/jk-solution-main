@@ -1,0 +1,62 @@
+@import "../../app/styles/mixin";
+
+.goodsShop {
+  display: grid;
+  grid-template-areas:
+  "bags corsets"
+  "tops corsets";
+  gap: 32px;
+}
+
+.bags {
+  width: 666px;
+  height: 374px;
+  background: url("./icons/bags.png");
+  background-size: cover;
+  grid-area: bags;
+  display: flex;
+  align-items: center;
+}
+
+.tops {
+  width: 666px;
+  height: 374px;
+  background: url("./icons/tops.png");
+  background-size: cover;
+  grid-area: tops;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.corsets {
+  width: 600px;
+  height: 780px;
+  background: url("./icons/corsets.png");
+  background-size: cover;
+  grid-area: corsets;
+  display: flex;
+  align-items: flex-end;
+}
+
+.bagsText,
+.topsText,
+.corsetsText {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62.4px;
+  color: #000;
+  padding: 0 50px;
+}
+
+.topsText {
+  padding: 0;
+}
+
+.bagsText, .corsetsText{
+  background: #fff;
+}
+
+.corsetsText {
+  margin-bottom: 250px;
+}

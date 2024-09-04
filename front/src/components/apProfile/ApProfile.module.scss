@@ -1,0 +1,151 @@
+.hello {
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.user {
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.ok, .not, .wait {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2fa10a;
+}
+
+.not, .num {
+  color: red;
+}
+
+.wait {
+  color: #0095e5;
+}
+
+.blockProdukt {
+  width: 315px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.blockImg {
+  position: relative;
+}
+
+.stars, .discount {
+  position: absolute;
+  top: 12px;
+  right: 8px;
+  width: 68px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+  border-radius: 100px;
+  background: #8B4513;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.discount {
+  top: 12px;
+  left: 8px;
+}
+
+.nameCategories {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+  text-align: left;
+  color: #757575;
+}
+
+.nameProduct {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #3E3E3E;
+}
+
+.discount {
+  position: absolute;
+  top: 12px;
+  right: 8px;
+  width: 68px;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+  border-radius: 100px;
+  background: #8B4513;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.discount {
+  top: 12px;
+  left: 8px;
+}
+
+.sizeNum {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-align: left;
+  color: #8B4513;
+  column-gap: 16px;
+}
+
+.sumNot {
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+.link {
+  width: 215px;
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  background: #001834;
+  border-radius: 4px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #fff;
+  border: none;
+}

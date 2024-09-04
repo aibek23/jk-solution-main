@@ -1,0 +1,28 @@
+.footer {
+  width: 100%;
+  background: #001834;
+  height: auto;
+  padding: 60px 112px;
+}
+
+.contentYslug {
+  width: 100%;
+  background: #001834;
+}
+
+.logo {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 32px;
+}
+
+.text {
+  padding-bottom: 20px;
+}

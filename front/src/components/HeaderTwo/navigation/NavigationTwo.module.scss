@@ -1,0 +1,15 @@
+.textLink {
+  color: #000;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+
+  &:hover {
+    color: #AE1919;
+  }
+}
+
+.active {
+  color: #AE1919;
+  border-bottom: 2px solid red;
+}

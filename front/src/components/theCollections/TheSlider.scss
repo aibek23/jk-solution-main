@@ -1,0 +1,29 @@
+.sliderReceipts {
+  .slick-arrow {
+    display: none !important;
+  }
+
+  .slick-list {
+    height: 440px !important;
+  }
+
+  .slick-arrow {
+    display: none !important;
+  }
+
+  .slick-slide {
+    display: grid !important;
+    place-items: flex-end;
+    width: 445px !important;
+    height: 280px;
+    border-radius: 15px !important;
+    margin-right: 30px;
+    margin-bottom: 250px;
+    padding-bottom: 20px !important;
+    position: relative !important;
+
+    :focus-visible {
+      outline: none !important;
+    }
+  }
+}

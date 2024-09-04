@@ -1,0 +1,60 @@
+.componentApplication {
+  width: 500px;
+  height: auto;
+  padding: 24px;
+}
+
+.inputsAdds {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 16px;
+}
+
+.headerInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 16px;
+}
+
+.inputForm, .checboxInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 16px;
+}
+
+.checboxInfo {
+  justify-content: flex-start;
+}
+
+.submit {
+  width: 50%;
+  display: grid;
+  place-items: center;
+  height: 34px;
+  background: #001834;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #fff;
+  border: none;
+  margin-top: 16px;
+}
+
+.warning, .textInput {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #101828;
+}
+
+.inputs {
+  height: 36px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}

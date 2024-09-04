@@ -1,0 +1,170 @@
+.nameNewItems {
+  font-size: 76px;
+  font-weight: 500;
+  line-height: 98.8px;
+  text-align: left;
+  color: #3E3E3E;
+  margin-bottom: 32px;
+}
+
+.blockNew {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 30px;
+  justify-content: space-around;
+}
+
+.genderblock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textGendr {
+  width: 98px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: #FFFFFF;
+  border: 1px solid #E4E4E4;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #0A2540;
+  cursor: pointer;
+}
+
+.blockComment {
+  width: 255px;
+  height: auto;
+  padding: 16px;
+  background: #FFFFFF;
+}
+
+.userComments {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.userBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.userImg {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  background: #4D0E0E;
+}
+
+.infoUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 8px;
+}
+
+.name {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+  text-align: left;
+  color: #3E3E3E;
+}
+
+.data {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+  text-align: left;
+  color: #757575;
+}
+
+.imges {
+  width: 222px;
+  height: 157px;
+}
+
+.text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.2px;
+  color: #757575;
+}
+
+.popukarName {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #0A2540;
+  padding-left: 34px;
+  margin-bottom: 45px;
+}
+
+.blockName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infoName {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: #5E7790;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+  color: #0A2540;
+}
+
+.data {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #425466;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  color: #001834;
+}
+
+.linkPopular {
+  width: 125px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 4px;
+  background: #001834;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.015em;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 16px;
+}

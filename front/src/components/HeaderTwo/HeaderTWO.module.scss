@@ -1,0 +1,83 @@
+@import "../../app/styles/mixin";
+
+.wrapperHeader {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 112px;
+  font-size: 24px;
+  line-height: 36px;
+
+  @include laptop {
+    flex-wrap: wrap;
+  }
+
+  @include tablet {
+    flex-wrap: wrap;
+  }
+
+  @include mobil {
+    flex-wrap: wrap;
+  }
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  column-gap: 56px;
+  align-items: center;
+
+  @include laptop {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+
+.navText {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 44px;
+  color: #000;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.linck {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.textProfile {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #111;
+}
+
+.logo {
+  width: max-content;
+  height: 41px;
+}
+
+.textLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  width: 100px;
+  height: 34px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #000;
+}
+

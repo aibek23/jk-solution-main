@@ -1,0 +1,57 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 24px;
+}
+
+.inputForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.labelText {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #344054;
+  margin-bottom: 6px;
+}
+
+.inputText {
+  width: 480px;
+  height: 42px;
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  padding-left: 16px;
+}
+
+.checkboxForm {
+  width: 480px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+}
+
+.textCheckbox {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #344054;
+}
+
+.btn {
+  width: 480px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  background: #001834;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
